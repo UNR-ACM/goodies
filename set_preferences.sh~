@@ -11,8 +11,6 @@ pictureUrl="http://www.kucuu.com/desktop-wallpaper-home/Black-Background-Metal-1
 pictureFileName="Black-Background-Metal-1080P-hd-wallpapers-hd-wallpaper-1920x1440-13-507f977a064c7-8556.jpg"
 #------------------------------------
 
-
-#---------   Wallpaper  -------------
 cd ~/Pictures
 
 wget $pictureUrl
@@ -22,5 +20,4 @@ gsettings set org.gnome.desktop.background picture-uri file://$dir/$pictureFileN
 
 
 gsettings set org.gnome.shell.background color %#000000
-#------------------------------------
 

@@ -24,3 +24,6 @@ gsettings set org.gnome.desktop.background picture-uri file://$dir/$pictureFileN
 gsettings set org.gnome.shell.background color %#000000
 #------------------------------------
 
+#----   Common Applications  --------
+sudo apt-get install vim git
+
